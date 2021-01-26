@@ -1,0 +1,14 @@
+.row {background-color:#8A8F40}
+.textcol {text-decoration-color:#8A8F40; }
+form { display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 0em 1fr;
+      grid-gap: 1em; gap: 1em;
+      background-color: #EAEAEA; font-family: Arial, sans-serif;
+      width: 60%; min-width: 20em; padding: 2em; }
+input[type="submit"] { grid-column: 2 / 3;
+width: 10em;  }
+body {background-color: #DAE537;
+font-family: Arial, sans-serif;}
+h2 {text-align: center;}
+td {width: 140px; height: 25px}

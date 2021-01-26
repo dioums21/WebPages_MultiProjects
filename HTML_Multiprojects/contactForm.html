@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="realty.css">
+  </head>
+  <body>
+    <div id="wrapper">
+    <header>
+      <h1>Contact me</h1>
+    </header>
+    <nav id="navBar">
+      <ul>
+        <li><a href="termProject.html">Home</a></li>
+        <li><a href="properties.html">Available Properties</a></li>
+        <li><a href="contactForm.html">Contact</a></li>
+        <li><a href="mapsCredit.html">Site Maps & Credits</a></li>
+      </ul>
+    </nav>
+    <main>
+      <br>
+      <br>
+      <br>
+      <form action="mailto:joe@example.com" method="post">
+        <table>
+          <tr>
+            <td><label for="First Name"><b>First Name</b></label>
+            <input type="text" name="First Name" placeholder="First Name" id="First Name" required="required"> </td>
+            <td><label for="First Name"><b>Last Name</b></label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="First Name" placeholder="Last Name" id="First Name" required="required"> </td>
+          </tr>
+          <tr>
+            <td><label for="Email"><b>Email</b></label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="mailto" name="Email" id="Email" placeholder="JohnDoe@domain.com" required="required"> </td>
+            <td><label for="Phone Number"><b>Phone Number</b></label>
+            <input type="tel" name="Phone Number" id="Phone Number" placeholder="###-###-####" required="required"> </td>
+          </tr>
+        </table>
+        <fieldset>
+          <legend>Preferences</legend>
+          <table>
+            <tr>
+              <td><label for="Beds"><b>Bedrooms</b></label>
+              <input type="number" min="0" max="4" value="3" name="Bedrooms" id="Bedrooms" required="required"> </td>
+              <td><label for="Baths"><b>Bathrooms</b></label>
+              <input type="number" min="0" max="7" value="3" name="Bathroom" id="Bathrooms" required="required"> </td>
+            </tr>
+            <tr>
+              <td colspan="2"><label for="Comments"><b>Comments</b></label>
+              <textarea name="Comments" rows="5" cols="80"></textarea></td>
+            </tr>
+          </table>
+        </fieldset>
+          <table>
+            <tr>
+              <td></td>
+              <td><input name="btnSubmit" type="submit" value="Submit Now">
+              &nbsp<input name="btnReset" type="reset" value="Clear"></td>
+            </tr>
+          </table>
+      </form>
+    </main>
+    <footer>
+      <h6>&copy Copyright Mamadou Diallo - COMP 213 - Fall 2019</h6>
+    </footer>
+  </body>
+</html>
